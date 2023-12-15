@@ -1,0 +1,414 @@
+
+# verbs
+ཡིན།	to be	personal experience (བདག)	Verb	 
+ཡོད།	there is/to have	personal experience (བདག)	Verb	 
+ཡིན་ས་ཡོད།	uncertainty, to be	personal experience (བདག)	Verb	 
+ཡོད་ས་ཡོད།	uncertainty, there is/to have	personal experience (བདག)	Verb	 
+རེད།	to be	general situations (གཞན།)	Verb	 
+ཡོད་རེད།	there is/to have	general situations (གཞན།)	Verb	 
+ཡིན་ས་རེད།	uncertainty, to be	general situations (གཞན།)	Verb	 
+ཡིན་བགྱི་རེད།	uncertainty, to be	general situations (གཞན།)	Verb	 
+ཡོད་བགྱི་རེད།	uncertainty, there is/to have	general situations (གཞན།)	Verb	 
+ཡོད་ས་རེད།	uncertainty, there is/to have	general situations (གཞན།)	Verb	 
+འདུག	there is/to have	newly experienced fact (གཞན།)	Verb	 
+རེད་འདུག	to be	general situation +  newly personally experienced	Verb	 
+
+# neg_verbs
+མིན།	to be	personal experience (བདག)	Verb	negative
+མེད།	there is/to have	personal experience (བདག)	Verb	negative
+ཡིན་ས་མེད།	uncertainty, to be	personal experience (བདག)	Verb	negative
+ཡོད་ས་མེད།	uncertainty, there is/to have	personal experience (བདག)	Verb	negative
+མ་རེད།	to be	general situations (གཞན།)	Verb	negative
+ཡོད་མ་རེད།	there is/to have	general situations (གཞན།)	Verb	negative
+ཡིན་བགྱི་མ་རེད།	uncertainty, to be	general situations (གཞན།)	Verb	negative
+ཡིན་ས་མ་རེད།	uncertainty, to be	general situations (གཞན།)	Verb	negative
+ཡོད་བགྱི་མ་རེད།	uncertainty, there is/to have	general situations (གཞན།)	Verb	negative
+ཡོད་ས་མ་རེད།	uncertainty, there is/to have	general situations (གཞན།)	Verb	negative
+མི་འདུག	there is/to have	newly experienced fact (གཞན།)	Verb	negative
+རེད་མི་འདུག	to be	general situation +  newly personally experienced	Verb	negative
+
+# past
+-ཡིན།	past simple	personal experience (བདག)	Past	 
+-པ་ཡིན།	past simple	personal experience (བདག)	Past	 
+-ཡོད།*	action fully completed	personal experience (བདག)	Past	 
+-མྱོང་།	description of having already experienced something	personal experience (བདག)	Past	 
+-མྱོང་ཡོད།	description of having already experienced something	personal experience (བདག)	Past	 
+-ཡིན་ས་ཡོད།	uncertainty, past simple	personal experience (བདག)	Past	 
+-ཡོད་ས་ཡོད།	uncertainty, action fully completed	personal experience (བདག)	Past	 
+-རེད།	past simple	general situations (གཞན།)	Past	 
+-པ་རེད།	past simple	general situations (གཞན།)	Past	 
+-ཡོད་རེད།	action fully completed	general situations (གཞན།)	Past	 
+-མྱོང་ཡོད་རེད།	description of having already experienced something	general situations (གཞན།)	Past	 
+-ཡིན་ས་རེད།	uncertainty, past simple	general situations (གཞན།)	Past	 
+-པ་ཡིན་ས་རེད། 	uncertainty, past simple	general situations (གཞན།)	Past	 
+-ཡིན་བགྱི་རེད།	uncertainty, past simple	general situations (གཞན།)	Past	 
+-ཡོད་ས་རེད།	uncertainty, action fully completed	general situations (གཞན།)	Past	 
+-པ་ཡོད་ས་རེད། 	uncertainty, action fully completed	general situations (གཞན།)	Past	 
+-ཡོད་བགྱི་རེད།	uncertainty, action fully completed	general situations (གཞན།)	Past	 
+-མྱོང་འདུག	description of having already experienced something	newly experienced fact (གཞན།)	Past	 
+-འདུག	action fully completed	newly experienced fact (གཞན།)	Past	 
+-སོང་།	action fully completed	recently experienced an action being done by others	Past	 
+-བྱུང་།	past simple	general situation happened  towards side of speaker	Past	 
+
+# neg_past
+→ -མེད།	past simple	personal experience (བདག)	Past	negative
+→ -མེད།	past simple	personal experience (བདག)	Past	negative
+-མེད།	action fully completed	personal experience (བདག)	Past	negative
+-མ་མྱོང་།	description of having already experienced something	personal experience (བདག)	Past	negative
+-མྱོང་མེད།	description of having already experienced something	personal experience (བདག)	Past	negative
+→ -ཡོད་ས་མེད།	uncertainty, past simple	personal experience (བདག)	Past	negative
+-ཡོད་ས་མེད།	uncertainty, action fully completed	personal experience (བདག)	Past	negative
+→ -ཡོད་མ་རེད།	past simple	general situations (གཞན།)	Past	negative
+→ -ཡོད་མ་རེད།	past simple	general situations (གཞན།)	Past	negative
+-ཡོད་མ་རེད།	action fully completed	general situations (གཞན།)	Past	negative
+-མྱོང་ཡོད་མ་རེད།	description of having already experienced something	general situations (གཞན།)	Past	negative
+-ཡིན་ས་མ་རེད།	uncertainty, past simple	general situations (གཞན།)	Past	negative
+-པ་ཡིན་ས་མ་རེད།	uncertainty, past simple	general situations (གཞན།)	Past	negative
+-ཡིན་བགྱི་མ་རེད།	uncertainty, past simple	general situations (གཞན།)	Past	negative
+-ཡོད་ས་མ་རེད།	uncertainty, action fully completed	general situations (གཞན།)	Past	negative
+-པ་ཡོད་ས་མ་རེད།	uncertainty, action fully completed	general situations (གཞན།)	Past	negative
+-ཡོད་བགྱི་མ་རེད།	uncertainty, action fully completed	general situations (གཞན།)	Past	negative
+-མྱོང་མི་འདུག	description of having already experienced something	newly experienced fact (གཞན།)	Past	negative
+-མི་འདུག	action fully completed	newly experienced fact (གཞན།)	Past	negative
+-མ་སོང་།	action fully completed	recently experienced an action being done by others	Past	negative
+-མ་བྱུང་།	past simple	general situation happened  towards side of speaker	Past	negative
+
+# present
+-གི་ཡོད།	present simple	personal experience (བདག)	Present	 
+-བསྡད་ཡོད།	ongoing action	personal experience (བདག)	Present	 
+-གི་ཡོད་ས་ཡོད།	uncertainty	personal experience (བདག)	Present	 
+-ས་ཡོད།	conditional	personal experience (བདག)	Present	 
+-གི་ཡོད་རེད།	present simple	general situations (གཞན།)	Present	 
+-བསྡད་ཡོད་རེད།	ongoing action	general situations (གཞན།)	Present	 
+-གི་ཡོད་ས་རེད།	uncertainty	general situations (གཞན།)	Present	 
+-གི་ཡོད་བགྱི་རེད།	uncertainty	general situations (གཞན།)	Present	 
+
+# neg_present
+-གི་མེད།	present simple	personal experience (བདག)	Present	negative
+-བསྡད་མེད།	ongoing action	personal experience (བདག)	Present	negative
+→ -གི་ཡོད་ས་མ་རེད།	uncertainty	personal experience (བདག)	Present	negative
+-ས་མེད།	conditional	personal experience (བདག)	Present	negative
+-གི་ཡོད་མ་རེད།	present simple	general situations (གཞན།)	Present	negative
+-བསྡད་ཡོད་མ་རེད།	ongoing action	general situations (གཞན།)	Present	negative
+-གི་ཡོད་ས་མ་རེད།	uncertainty	general situations (གཞན།)	Present	negative
+-གི་ཡོད་བགྱི་མ་རེད།	uncertainty	general situations (གཞན།)	Present	negative
+
+# conditional
+-ས་འདུག	conditional	newly experienced fact (གཞན།)	Conditional	 
+-ས་རེད།	conditional	general situations (གཞན།)	Conditional	 
+
+# neg_conditional
+-ས་མི་འདུག	conditional	newly experienced fact (གཞན།)	Conditional	negative
+-ས་མ་རེད།	conditional	general situations (གཞན།)	Conditional	negative
+
+# future
+-གི་ཡིན།	future simple	personal experience (བདག)	Future	 
+-ཡ་ཡིན།	plan to do	personal experience (བདག)	Future	 
+-རྒྱུ་ཡིན།	resolution to do (also "not yet done")	personal experience (བདག)	Future	 
+-གི་རེད།	future simple	general situations (གཞན།)	Future	 
+-ཡ་རེད།	plan to do	general situations (གཞན།)	Future	 
+-རྒྱུ་རེད།	resolution to do (also "not yet done")	general situations (གཞན།)	Future	 
+-གི་ཡིན་ས་རེད།	uncertainty	general situations (གཞན།)	Future	 
+-གི་ཡིན་བགྱི་རེད།	uncertainty	general situations (གཞན།)	Future	 
+
+# neg_future
+→ -གི་མེད།* / -གི་མིན།	future simple	personal experience (བདག)	Future	negative
+→ -ཡ་མ་རེད།* / -ཡ་མིན།	plan to do	personal experience (བདག)	Future	negative
+-རྒྱུ་མིན།	resolution to do (also "not yet done")	personal experience (བདག)	Future	negative
+-གི་མ་རེད།	future simple	general situations (གཞན།)	Future	negative
+-ཡ་མ་རེད།	plan to do	general situations (གཞན།)	Future	negative
+-རྒྱུ་མ་རེད།	resolution to do (also "not yet done")	general situations (གཞན།)	Future	negative
+-གི་ཡིན་ས་མ་རེད།	uncertainty	general situations (གཞན།)	Future	negative
+-གི་ཡིན་བགྱི་མ་རེད།	uncertainty	general situations (གཞན།)	Future	negative
+
+# to be
+ཡིན།	to be	personal experience (བདག)	Verb	 
+རེད།	to be	general situations (གཞན།)	Verb	 
+རེད་འདུག	to be	general situation +  newly personally experienced	Verb	 
+
+# personal experience (བདག)
+ཡིན།	to be	personal experience (བདག)	Verb	 
+ཡོད།	there is/to have	personal experience (བདག)	Verb	 
+ཡིན་ས་ཡོད།	uncertainty, to be	personal experience (བདག)	Verb	 
+ཡོད་ས་ཡོད།	uncertainty, there is/to have	personal experience (བདག)	Verb	 
+-ཡིན།	past simple	personal experience (བདག)	Past	 
+-པ་ཡིན།	past simple	personal experience (བདག)	Past	 
+-ཡོད།*	action fully completed	personal experience (བདག)	Past	 
+-མྱོང་།	description of having already experienced something	personal experience (བདག)	Past	 
+-མྱོང་ཡོད།	description of having already experienced something	personal experience (བདག)	Past	 
+-ཡིན་ས་ཡོད།	uncertainty, past simple	personal experience (བདག)	Past	 
+-ཡོད་ས་ཡོད།	uncertainty, action fully completed	personal experience (བདག)	Past	 
+-གི་ཡོད།	present simple	personal experience (བདག)	Present	 
+-བསྡད་ཡོད།	ongoing action	personal experience (བདག)	Present	 
+-གི་ཡོད་ས་ཡོད།	uncertainty	personal experience (བདག)	Present	 
+-ས་ཡོད།	conditional	personal experience (བདག)	Present	 
+-གི་ཡིན།	future simple	personal experience (བདག)	Future	 
+-ཡ་ཡིན།	plan to do	personal experience (བདག)	Future	 
+-རྒྱུ་ཡིན།	resolution to do (also "not yet done")	personal experience (བདག)	Future	 
+
+# there is/to have
+ཡོད།	there is/to have	personal experience (བདག)	Verb	 
+ཡོད་རེད།	there is/to have	general situations (གཞན།)	Verb	 
+འདུག	there is/to have	newly experienced fact (གཞན།)	Verb	 
+
+# uncertainty, to be
+ཡིན་ས་ཡོད།	uncertainty, to be	personal experience (བདག)	Verb	 
+ཡིན་ས་རེད།	uncertainty, to be	general situations (གཞན།)	Verb	 
+ཡིན་བགྱི་རེད།	uncertainty, to be	general situations (གཞན།)	Verb	 
+
+# uncertainty, there is/to have
+ཡོད་ས་ཡོད།	uncertainty, there is/to have	personal experience (བདག)	Verb	 
+ཡོད་བགྱི་རེད།	uncertainty, there is/to have	general situations (གཞན།)	Verb	 
+ཡོད་ས་རེད།	uncertainty, there is/to have	general situations (གཞན།)	Verb	 
+
+# general situations (གཞན།)
+རེད།	to be	general situations (གཞན།)	Verb	 
+ཡོད་རེད།	there is/to have	general situations (གཞན།)	Verb	 
+ཡིན་ས་རེད།	uncertainty, to be	general situations (གཞན།)	Verb	 
+ཡིན་བགྱི་རེད།	uncertainty, to be	general situations (གཞན།)	Verb	 
+ཡོད་བགྱི་རེད།	uncertainty, there is/to have	general situations (གཞན།)	Verb	 
+ཡོད་ས་རེད།	uncertainty, there is/to have	general situations (གཞན།)	Verb	 
+-རེད།	past simple	general situations (གཞན།)	Past	 
+-པ་རེད།	past simple	general situations (གཞན།)	Past	 
+-ཡོད་རེད།	action fully completed	general situations (གཞན།)	Past	 
+-མྱོང་ཡོད་རེད།	description of having already experienced something	general situations (གཞན།)	Past	 
+-ཡིན་ས་རེད།	uncertainty, past simple	general situations (གཞན།)	Past	 
+-པ་ཡིན་ས་རེད། 	uncertainty, past simple	general situations (གཞན།)	Past	 
+-ཡིན་བགྱི་རེད།	uncertainty, past simple	general situations (གཞན།)	Past	 
+-ཡོད་ས་རེད།	uncertainty, action fully completed	general situations (གཞན།)	Past	 
+-པ་ཡོད་ས་རེད། 	uncertainty, action fully completed	general situations (གཞན།)	Past	 
+-ཡོད་བགྱི་རེད།	uncertainty, action fully completed	general situations (གཞན།)	Past	 
+-གི་ཡོད་རེད།	present simple	general situations (གཞན།)	Present	 
+-བསྡད་ཡོད་རེད།	ongoing action	general situations (གཞན།)	Present	 
+-གི་ཡོད་ས་རེད།	uncertainty	general situations (གཞན།)	Present	 
+-གི་ཡོད་བགྱི་རེད།	uncertainty	general situations (གཞན།)	Present	 
+-གི་རེད།	future simple	general situations (གཞན།)	Future	 
+-ཡ་རེད།	plan to do	general situations (གཞན།)	Future	 
+-རྒྱུ་རེད།	resolution to do (also "not yet done")	general situations (གཞན།)	Future	 
+-གི་ཡིན་ས་རེད།	uncertainty	general situations (གཞན།)	Future	 
+-གི་ཡིན་བགྱི་རེད།	uncertainty	general situations (གཞན།)	Future	 
+-ས་རེད།	conditional	general situations (གཞན།)	Conditional	 
+
+# newly experienced fact (གཞན།)
+འདུག	there is/to have	newly experienced fact (གཞན།)	Verb	 
+-མྱོང་འདུག	description of having already experienced something	newly experienced fact (གཞན།)	Past	 
+-འདུག	action fully completed	newly experienced fact (གཞན།)	Past	 
+-ས་འདུག	conditional	newly experienced fact (གཞན།)	Conditional	 
+
+# general situation +  newly personally experienced
+རེད་འདུག	to be	general situation +  newly personally experienced	Verb	 
+
+# past simple
+-ཡིན།	past simple	personal experience (བདག)	Past	 
+-པ་ཡིན།	past simple	personal experience (བདག)	Past	 
+-རེད།	past simple	general situations (གཞན།)	Past	 
+-པ་རེད།	past simple	general situations (གཞན།)	Past	 
+-བྱུང་།	past simple	general situation happened  towards side of speaker	Past	 
+
+# action fully completed
+-ཡོད།*	action fully completed	personal experience (བདག)	Past	 
+-ཡོད་རེད།	action fully completed	general situations (གཞན།)	Past	 
+-འདུག	action fully completed	newly experienced fact (གཞན།)	Past	 
+-སོང་།	action fully completed	recently experienced an action being done by others	Past	 
+
+# description of having already experienced something
+-མྱོང་།	description of having already experienced something	personal experience (བདག)	Past	 
+-མྱོང་ཡོད།	description of having already experienced something	personal experience (བདག)	Past	 
+-མྱོང་ཡོད་རེད།	description of having already experienced something	general situations (གཞན།)	Past	 
+-མྱོང་འདུག	description of having already experienced something	newly experienced fact (གཞན།)	Past	 
+
+# uncertainty, past simple
+-ཡིན་ས་ཡོད།	uncertainty, past simple	personal experience (བདག)	Past	 
+-ཡིན་ས་རེད།	uncertainty, past simple	general situations (གཞན།)	Past	 
+-པ་ཡིན་ས་རེད། 	uncertainty, past simple	general situations (གཞན།)	Past	 
+-ཡིན་བགྱི་རེད།	uncertainty, past simple	general situations (གཞན།)	Past	 
+
+# uncertainty, action fully completed
+-ཡོད་ས་ཡོད།	uncertainty, action fully completed	personal experience (བདག)	Past	 
+-ཡོད་ས་རེད།	uncertainty, action fully completed	general situations (གཞན།)	Past	 
+-པ་ཡོད་ས་རེད། 	uncertainty, action fully completed	general situations (གཞན།)	Past	 
+-ཡོད་བགྱི་རེད།	uncertainty, action fully completed	general situations (གཞན།)	Past	 
+
+# recently experienced an action being done by others
+-སོང་།	action fully completed	recently experienced an action being done by others	Past	 
+
+# general situation happened  towards side of speaker
+-བྱུང་།	past simple	general situation happened  towards side of speaker	Past	 
+
+# present simple
+-གི་ཡོད།	present simple	personal experience (བདག)	Present	 
+-གི་ཡོད་རེད།	present simple	general situations (གཞན།)	Present	 
+
+# ongoing action
+-བསྡད་ཡོད།	ongoing action	personal experience (བདག)	Present	 
+-བསྡད་ཡོད་རེད།	ongoing action	general situations (གཞན།)	Present	 
+
+# uncertainty
+-གི་ཡོད་ས་ཡོད།	uncertainty	personal experience (བདག)	Present	 
+-གི་ཡོད་ས་རེད།	uncertainty	general situations (གཞན།)	Present	 
+-གི་ཡོད་བགྱི་རེད།	uncertainty	general situations (གཞན།)	Present	 
+-གི་ཡིན་ས་རེད།	uncertainty	general situations (གཞན།)	Future	 
+-གི་ཡིན་བགྱི་རེད།	uncertainty	general situations (གཞན།)	Future	 
+
+# conditional
+-ས་ཡོད།	conditional	personal experience (བདག)	Present	 
+-ས་འདུག	conditional	newly experienced fact (གཞན།)	Conditional	 
+-ས་རེད།	conditional	general situations (གཞན།)	Conditional	 
+
+# future simple
+-གི་ཡིན།	future simple	personal experience (བདག)	Future	 
+-གི་རེད།	future simple	general situations (གཞན།)	Future	 
+
+# plan to do
+-ཡ་ཡིན།	plan to do	personal experience (བདག)	Future	 
+-ཡ་རེད།	plan to do	general situations (གཞན།)	Future	 
+
+# resolution to do (also "not yet done")
+-རྒྱུ་ཡིན།	resolution to do (also "not yet done")	personal experience (བདག)	Future	 
+-རྒྱུ་རེད།	resolution to do (also "not yet done")	general situations (གཞན།)	Future	 
+
+# to be
+མིན།	to be	personal experience (བདག)	Verb	negative
+མ་རེད།	to be	general situations (གཞན།)	Verb	negative
+རེད་མི་འདུག	to be	general situation +  newly personally experienced	Verb	negative
+
+# personal experience (བདག)
+མིན།	to be	personal experience (བདག)	Verb	negative
+མེད།	there is/to have	personal experience (བདག)	Verb	negative
+ཡིན་ས་མེད།	uncertainty, to be	personal experience (བདག)	Verb	negative
+ཡོད་ས་མེད།	uncertainty, there is/to have	personal experience (བདག)	Verb	negative
+→ -མེད།	past simple	personal experience (བདག)	Past	negative
+→ -མེད།	past simple	personal experience (བདག)	Past	negative
+-མེད།	action fully completed	personal experience (བདག)	Past	negative
+-མ་མྱོང་།	description of having already experienced something	personal experience (བདག)	Past	negative
+-མྱོང་མེད།	description of having already experienced something	personal experience (བདག)	Past	negative
+→ -ཡོད་ས་མེད།	uncertainty, past simple	personal experience (བདག)	Past	negative
+-ཡོད་ས་མེད།	uncertainty, action fully completed	personal experience (བདག)	Past	negative
+-གི་མེད།	present simple	personal experience (བདག)	Present	negative
+-བསྡད་མེད།	ongoing action	personal experience (བདག)	Present	negative
+→ -གི་ཡོད་ས་མ་རེད།	uncertainty	personal experience (བདག)	Present	negative
+-ས་མེད།	conditional	personal experience (བདག)	Present	negative
+→ -གི་མེད།* / -གི་མིན།	future simple	personal experience (བདག)	Future	negative
+→ -ཡ་མ་རེད།* / -ཡ་མིན།	plan to do	personal experience (བདག)	Future	negative
+-རྒྱུ་མིན།	resolution to do (also "not yet done")	personal experience (བདག)	Future	negative
+
+# there is/to have
+མེད།	there is/to have	personal experience (བདག)	Verb	negative
+ཡོད་མ་རེད།	there is/to have	general situations (གཞན།)	Verb	negative
+མི་འདུག	there is/to have	newly experienced fact (གཞན།)	Verb	negative
+
+# uncertainty, to be
+ཡིན་ས་མེད།	uncertainty, to be	personal experience (བདག)	Verb	negative
+ཡིན་བགྱི་མ་རེད།	uncertainty, to be	general situations (གཞན།)	Verb	negative
+ཡིན་ས་མ་རེད།	uncertainty, to be	general situations (གཞན།)	Verb	negative
+
+# uncertainty, there is/to have
+ཡོད་ས་མེད།	uncertainty, there is/to have	personal experience (བདག)	Verb	negative
+ཡོད་བགྱི་མ་རེད།	uncertainty, there is/to have	general situations (གཞན།)	Verb	negative
+ཡོད་ས་མ་རེད།	uncertainty, there is/to have	general situations (གཞན།)	Verb	negative
+
+# general situations (གཞན།)
+མ་རེད།	to be	general situations (གཞན།)	Verb	negative
+ཡོད་མ་རེད།	there is/to have	general situations (གཞན།)	Verb	negative
+ཡིན་བགྱི་མ་རེད།	uncertainty, to be	general situations (གཞན།)	Verb	negative
+ཡིན་ས་མ་རེད།	uncertainty, to be	general situations (གཞན།)	Verb	negative
+ཡོད་བགྱི་མ་རེད།	uncertainty, there is/to have	general situations (གཞན།)	Verb	negative
+ཡོད་ས་མ་རེད།	uncertainty, there is/to have	general situations (གཞན།)	Verb	negative
+→ -ཡོད་མ་རེད།	past simple	general situations (གཞན།)	Past	negative
+→ -ཡོད་མ་རེད།	past simple	general situations (གཞན།)	Past	negative
+-ཡོད་མ་རེད།	action fully completed	general situations (གཞན།)	Past	negative
+-མྱོང་ཡོད་མ་རེད།	description of having already experienced something	general situations (གཞན།)	Past	negative
+-ཡིན་ས་མ་རེད།	uncertainty, past simple	general situations (གཞན།)	Past	negative
+-པ་ཡིན་ས་མ་རེད།	uncertainty, past simple	general situations (གཞན།)	Past	negative
+-ཡིན་བགྱི་མ་རེད།	uncertainty, past simple	general situations (གཞན།)	Past	negative
+-ཡོད་ས་མ་རེད།	uncertainty, action fully completed	general situations (གཞན།)	Past	negative
+-པ་ཡོད་ས་མ་རེད།	uncertainty, action fully completed	general situations (གཞན།)	Past	negative
+-ཡོད་བགྱི་མ་རེད།	uncertainty, action fully completed	general situations (གཞན།)	Past	negative
+-གི་ཡོད་མ་རེད།	present simple	general situations (གཞན།)	Present	negative
+-བསྡད་ཡོད་མ་རེད།	ongoing action	general situations (གཞན།)	Present	negative
+-གི་ཡོད་ས་མ་རེད།	uncertainty	general situations (གཞན།)	Present	negative
+-གི་ཡོད་བགྱི་མ་རེད།	uncertainty	general situations (གཞན།)	Present	negative
+-གི་མ་རེད།	future simple	general situations (གཞན།)	Future	negative
+-ཡ་མ་རེད།	plan to do	general situations (གཞན།)	Future	negative
+-རྒྱུ་མ་རེད།	resolution to do (also "not yet done")	general situations (གཞན།)	Future	negative
+-གི་ཡིན་ས་མ་རེད།	uncertainty	general situations (གཞན།)	Future	negative
+-གི་ཡིན་བགྱི་མ་རེད།	uncertainty	general situations (གཞན།)	Future	negative
+-ས་མ་རེད།	conditional	general situations (གཞན།)	Conditional	negative
+
+# newly experienced fact (གཞན།)
+མི་འདུག	there is/to have	newly experienced fact (གཞན།)	Verb	negative
+-མྱོང་མི་འདུག	description of having already experienced something	newly experienced fact (གཞན།)	Past	negative
+-མི་འདུག	action fully completed	newly experienced fact (གཞན།)	Past	negative
+-ས་མི་འདུག	conditional	newly experienced fact (གཞན།)	Conditional	negative
+
+# general situation +  newly personally experienced
+རེད་མི་འདུག	to be	general situation +  newly personally experienced	Verb	negative
+
+# past simple
+→ -མེད།	past simple	personal experience (བདག)	Past	negative
+→ -མེད།	past simple	personal experience (བདག)	Past	negative
+→ -ཡོད་མ་རེད།	past simple	general situations (གཞན།)	Past	negative
+→ -ཡོད་མ་རེད།	past simple	general situations (གཞན།)	Past	negative
+-མ་བྱུང་།	past simple	general situation happened  towards side of speaker	Past	negative
+
+# action fully completed
+-མེད།	action fully completed	personal experience (བདག)	Past	negative
+-ཡོད་མ་རེད།	action fully completed	general situations (གཞན།)	Past	negative
+-མི་འདུག	action fully completed	newly experienced fact (གཞན།)	Past	negative
+-མ་སོང་།	action fully completed	recently experienced an action being done by others	Past	negative
+
+# description of having already experienced something
+-མ་མྱོང་།	description of having already experienced something	personal experience (བདག)	Past	negative
+-མྱོང་མེད།	description of having already experienced something	personal experience (བདག)	Past	negative
+-མྱོང་ཡོད་མ་རེད།	description of having already experienced something	general situations (གཞན།)	Past	negative
+-མྱོང་མི་འདུག	description of having already experienced something	newly experienced fact (གཞན།)	Past	negative
+
+# uncertainty, past simple
+→ -ཡོད་ས་མེད།	uncertainty, past simple	personal experience (བདག)	Past	negative
+-ཡིན་ས་མ་རེད།	uncertainty, past simple	general situations (གཞན།)	Past	negative
+-པ་ཡིན་ས་མ་རེད།	uncertainty, past simple	general situations (གཞན།)	Past	negative
+-ཡིན་བགྱི་མ་རེད།	uncertainty, past simple	general situations (གཞན།)	Past	negative
+
+# uncertainty, action fully completed
+-ཡོད་ས་མེད།	uncertainty, action fully completed	personal experience (བདག)	Past	negative
+-ཡོད་ས་མ་རེད།	uncertainty, action fully completed	general situations (གཞན།)	Past	negative
+-པ་ཡོད་ས་མ་རེད།	uncertainty, action fully completed	general situations (གཞན།)	Past	negative
+-ཡོད་བགྱི་མ་རེད།	uncertainty, action fully completed	general situations (གཞན།)	Past	negative
+
+# recently experienced an action being done by others
+-མ་སོང་།	action fully completed	recently experienced an action being done by others	Past	negative
+
+# general situation happened  towards side of speaker
+-མ་བྱུང་།	past simple	general situation happened  towards side of speaker	Past	negative
+
+# present simple
+-གི་མེད།	present simple	personal experience (བདག)	Present	negative
+-གི་ཡོད་མ་རེད།	present simple	general situations (གཞན།)	Present	negative
+
+# ongoing action
+-བསྡད་མེད།	ongoing action	personal experience (བདག)	Present	negative
+-བསྡད་ཡོད་མ་རེད།	ongoing action	general situations (གཞན།)	Present	negative
+
+# uncertainty
+→ -གི་ཡོད་ས་མ་རེད།	uncertainty	personal experience (བདག)	Present	negative
+-གི་ཡོད་ས་མ་རེད།	uncertainty	general situations (གཞན།)	Present	negative
+-གི་ཡོད་བགྱི་མ་རེད།	uncertainty	general situations (གཞན།)	Present	negative
+-གི་ཡིན་ས་མ་རེད།	uncertainty	general situations (གཞན།)	Future	negative
+-གི་ཡིན་བགྱི་མ་རེད།	uncertainty	general situations (གཞན།)	Future	negative
+
+# conditional
+-ས་མེད།	conditional	personal experience (བདག)	Present	negative
+-ས་མི་འདུག	conditional	newly experienced fact (གཞན།)	Conditional	negative
+-ས་མ་རེད།	conditional	general situations (གཞན།)	Conditional	negative
+
+# future simple
+→ -གི་མེད།* / -གི་མིན།	future simple	personal experience (བདག)	Future	negative
+-གི་མ་རེད།	future simple	general situations (གཞན།)	Future	negative
+
+# plan to do
+→ -ཡ་མ་རེད།* / -ཡ་མིན།	plan to do	personal experience (བདག)	Future	negative
+-ཡ་མ་རེད།	plan to do	general situations (གཞན།)	Future	negative
+
+# resolution to do (also "not yet done")
+-རྒྱུ་མིན།	resolution to do (also "not yet done")	personal experience (བདག)	Future	negative
+-རྒྱུ་མ་རེད།	resolution to do (also "not yet done")	general situations (གཞན།)	Future	negative
