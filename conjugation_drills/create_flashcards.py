@@ -2,6 +2,31 @@ from pathlib import Path
 import csv
 from collections import defaultdict
 import re
+import random
+
+
+def randomize_n_group(deck, shuffle=True):
+    yinpa = ['ཡིན།', 'རེད།', 'རེད་འདུག']
+    yopa = ['ཡོད།', 'ཡོད་རེད།', 'འདུག']
+    yinsare = ['ཡིན་ས་ཡོད།', 'ཡིན་ས་རེད།', 'ཡིན་བགྱི་རེད།']
+    yosare = ['ཡོད་ས་ཡོད།', 'ཡོད་ས་རེད།', 'ཡོད་བགྱི་རེད།']
+    decks = defaultdict(list)
+    for card in deck:
+        decks['total'].append(card)
+        form = card[1]
+        if form in yinpa:
+            decks['yinpa'].append(card)
+        elif form in yopa:
+            decks['yopa'].append(card)
+        elif form in yinsare:
+            decks['yinsare'].append(card)
+        elif form in yosare:
+            decks['yosare'].append(card)
+
+    if shuffle:
+        for deck, cards in decks.items():
+            random.shuffle(cards)
+    return decks
 
 
 def prepare_flashcards(expanded, config, lang):
@@ -12,24 +37,24 @@ def prepare_flashcards(expanded, config, lang):
                 pro = config[lang][0][1][0]
                 filename = f'{lang}_{form}_{pro}'
                 for sent in sents:
-                    card = (filename, form, sent)
+                    card = (filename, form, sent, pro)
                     cards.append(card)
             if cat == 'zhen_anim':
                 for num, sent in enumerate(sents):
                     pro = config[lang][0][1][num+1]
                     filename = f'{lang}_{form}_{pro}'
-                    card = (filename, form, sent)
+                    card = (filename, form, sent, pro)
                     cards.append(card)
             if cat == 'zhen_inanim':
                 ab = {0: 'a', 1: 'b'}
                 for num, sent in enumerate(sents):
                     filename = f'{lang}_{form}_inanimate_{ab[num]}'
-                    card = (filename, form, sent)
+                    card = (filename, form, sent, 'inanimate')
                     cards.append(card)
     return cards
 
 
-def expand_entries(parsed, config, lang='EN'):
+def expand_entries(parsed, config):
     expanded = defaultdict(dict)
     for form, entries in parsed.items():
         for cat, entry in entries.items():
@@ -94,6 +119,10 @@ def parse_infiles(infile):
                 to_expand = [tsv[12][i], tsv[13][i], tsv[14][i], tsv[15][i]]
                 config['to_expand'].append((lang, to_expand))
 
+        for i in range(1, 10):
+            a = tsv[i][0]
+            config['pronouns_bo'].append(a)
+
     return parsed, config
 
 
@@ -101,12 +130,30 @@ if __name__ == '__main__':
     infile = Path('input/Auxilaries and Conjugation - drills.tsv')
     parsed, config = parse_infiles(infile)
     lang = 'EN'
-    expanded = expand_entries(parsed, config, lang=lang)
+    expanded = expand_entries(parsed, config)
     cards_raw = prepare_flashcards(expanded, config, lang)
+    decks = randomize_n_group(cards_raw, config)
     # print in csv file
     out = []
     for card in cards_raw:
         out.append('\t'.join(card))
     out = '\n'.join(out)
     Path('cards_raw.tsv').write_text(out)
+
+    # MEMRISE LESSONS
+    # print randomized in csv file. without filename
+    # pronouns in Tibetan
+    pro_table = {config['EN'][0][1][i]: config['pronouns_bo'][i] for i in range(len(config['pronouns_bo']))}
+    pro_table['inanimate'] = 'it (inanimate)'
+    rand_out = []
+    for cards in decks.values():
+        for card in cards:
+            card = list(card)
+            if card[3] in pro_table:
+                card[3] = pro_table[card[3]]
+            card[-2] = card[-2].replace('[', '').replace(']', '')
+            rand_out.append('\t'.join(card[1:]))
+        rand_out.append('\n')
+    rand_out = '\n'.join(rand_out)
+    Path('cards_raw_randomized.tsv').write_text(rand_out)
     print()
