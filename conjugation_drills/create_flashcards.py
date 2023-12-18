@@ -146,14 +146,14 @@ if __name__ == '__main__':
     pro_table = {config['EN'][0][1][i]: config['pronouns_bo'][i] for i in range(len(config['pronouns_bo']))}
     pro_table['inanimate'] = 'it (inanimate)'
     rand_out = []
-    for cards in decks.values():
+    for cat, cards in decks.items():
+        rand_out.append(f'\t\t\t\n{cat}\t\t\t')
         for card in cards:
             card = list(card)
             if card[3] in pro_table:
                 card[3] = pro_table[card[3]]
             card[-2] = card[-2].replace('[', '').replace(']', '')
             rand_out.append('\t'.join(card[1:]))
-        rand_out.append('\n')
     rand_out = '\n'.join(rand_out)
     Path('cards_raw_randomized.tsv').write_text(rand_out)
     print()
