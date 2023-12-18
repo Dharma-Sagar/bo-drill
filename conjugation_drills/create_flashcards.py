@@ -147,8 +147,8 @@ if __name__ == '__main__':
     pro_table['inanimate'] = 'it (inanimate)'
     rand_out = []
     for cat, cards in decks.items():
-        rand_out.append('\t'.join([cat, ' ', ' ']))
         rand_out.append('\t'.join([' ', ' ', ' ']))
+        rand_out.append('\t'.join([cat, ' ', ' ']))
         for card in cards:
             card = list(card)[1:]
             if card[2] in pro_table:
