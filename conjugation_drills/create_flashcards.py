@@ -147,13 +147,14 @@ if __name__ == '__main__':
     pro_table['inanimate'] = 'it (inanimate)'
     rand_out = []
     for cat, cards in decks.items():
-        rand_out.append(f'\t\t\t\t\n{cat}\t\t\t\t')
+        rand_out.append('\t'.join([cat, ' ', ' ']))
+        rand_out.append('\t'.join([' ', ' ', ' ']))
         for card in cards:
-            card = list(card)
-            if card[3] in pro_table:
-                card[3] = pro_table[card[3]]
-            card[-2] = card[-2].replace('[', '').replace(']', '')
-            rand_out.append('\t'.join(card[1:]))
+            card = list(card)[1:]
+            if card[2] in pro_table:
+                card[2] = pro_table[card[2]]
+            card[1] = card[1].replace('[', '').replace(']', '')
+            rand_out.append('\t'.join(card))
     rand_out = '\n'.join(rand_out)
     Path('cards_raw_randomized.tsv').write_text(rand_out)
     print()
